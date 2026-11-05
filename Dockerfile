@@ -4,7 +4,7 @@ WORKDIR /app
 
 COPY hello.py .
 
-RUN pip install --no-cache-dir flask
+RUN pip install --no-cache-dir flask redis
 
 EXPOSE 5000
 
